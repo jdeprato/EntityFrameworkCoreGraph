@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\EFCore\src\EFCore.Design\EFCore.Design.csproj" />
+    <ProjectReference Include="..\..\..\EFCore\src\EFCore.Relational\EFCore.Relational.csproj" />
+    <ProjectReference Include="..\..\..\EFCore\src\EFCore.SqlServer\EFCore.SqlServer.csproj" />
+    <ProjectReference Include="..\..\..\EFCore\src\EFCore\EFCore.csproj" />
+  </ItemGroup>
+</Project>
